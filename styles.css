@@ -1,4 +1,4 @@
-/* Reset some default browser styles */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,79 +6,54 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #0b0d13; /* Dark background */
-    color: #e5e7eb; /* Light text color */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
+    background-color: #0b0d13; /* Dark background */
+    font-family: 'Arial', sans-serif;
+    color: #e5e7eb; /* Light text color */
 }
 
-.container {
+.home-container {
     display: flex;
-    width: 80%;
-    height: 80%;
-    border: 2px solid #12c2e9;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* Sidebar Styles */
-.sidebar {
-    background-color: #1e2029;
-    width: 20%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    border-right: 2px solid #273c75;
+    gap: 50px;
 }
 
-.sidebar h2 {
+/* Greeting on the Left */
+.greeting h1 {
+    font-size: 120px;
     color: #12c2e9;
+    margin-right: 20px;
+}
+
+/* Welcome Text on the Right */
+.welcome-text {
+    max-width: 500px;
+}
+
+.welcome-text h2 {
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
-.sidebar ul {
-    list-style: none;
-}
-
-.sidebar ul li {
-    margin: 20px 0;
-}
-
-.sidebar ul li a {
-    color: #e5e7eb;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.sidebar ul li a:hover {
-    color: #12c2e9;
-}
-
-/* Main Content Area Styles */
-.content {
-    background-color: #11131b;
-    width: 80%;
-    padding: 40px;
-}
-
-.home-screen {
-    text-align: center;
+.welcome-text p {
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 button {
-    background-color: #12c2e9;
-    border: none;
+    background-color: transparent;
+    border: 2px solid #12c2e9;
+    color: #12c2e9;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-    background-color: #0f8fa6;
+    background-color: #12c2e9;
+    color: #0b0d13;
 }
