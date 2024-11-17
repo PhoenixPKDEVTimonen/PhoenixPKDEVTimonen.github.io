@@ -7,6 +7,9 @@ I'm currently learning web development, and this project is my attempt at creati
 🌟 About the Project
 This website features a dark, sci-fi aesthetic with interactive elements, drawing inspiration from game UIs. It will use a combination of HTML, CSS, JavaScript, and React to create a dynamic experience.
 
+(i also like to pointout that this design is taken from Figma.com, the creator of this is alex dimitrov @xavortm.)
+I thought this design looked really cool and decided to learn how to recreate it and use it as a personal portfolio.
+
 💻 What I'm Learning
 Through this project, I'm exploring:
 
