@@ -1,0 +1,84 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b0d13; /* Dark background */
+    color: #e5e7eb; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    border: 2px solid #12c2e9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #1e2029;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #273c75;
+}
+
+.sidebar h2 {
+    color: #12c2e9;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #e5e7eb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #12c2e9;
+}
+
+/* Main Content Area Styles */
+.content {
+    background-color: #11131b;
+    width: 80%;
+    padding: 40px;
+}
+
+.home-screen {
+    text-align: center;
+}
+
+button {
+    background-color: #12c2e9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0f8fa6;
+}
