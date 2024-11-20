@@ -10,9 +10,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #0b0d13; /* Dark background */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Iceland', sans-serif;
     color: #e5e7eb; /* Light text color */
+   
+   
 }
 
 .home-container {
@@ -23,8 +24,9 @@ body {
 
 /* Greeting on the Left */
 .greeting h1 {
-    font-size: 120px;
-    color: #12c2e9;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 500px;
+    color: #089C7F;
     margin-right: 20px;
 }
 
@@ -34,26 +36,29 @@ body {
 }
 
 .welcome-text h2 {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
 .welcome-text p {
     margin-bottom: 20px;
     line-height: 1.5;
+    font-size: 18px;
 }
 
 button {
     background-color: transparent;
-    border: 2px solid #12c2e9;
-    color: #12c2e9;
+    border: 2px solid #089C7F;
+    color: #089C7F;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 15px;
 }
 
 button:hover {
-    background-color: #12c2e9;
+    background-color: #089C7F;
     color: #0b0d13;
 }
