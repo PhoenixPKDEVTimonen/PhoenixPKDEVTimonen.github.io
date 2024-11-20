@@ -12,6 +12,8 @@ body {
     height: 100vh;
     font-family: 'Iceland', sans-serif;
     color: #e5e7eb; /* Light text color */
+    background-image: url('images/background.png');
+    background-size: cover;
    
    
 }
@@ -26,7 +28,7 @@ body {
 .greeting h1 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: 500px;
-    color: #089C7F;
+    color: #0b6231;
     margin-right: 20px;
 }
 
@@ -48,8 +50,8 @@ body {
 
 button {
     background-color: transparent;
-    border: 2px solid #089C7F;
-    color: #089C7F;
+    border: 2px solid #0b6231;
+    color: #0b6231;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
